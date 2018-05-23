@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace JenkinsTest
 {
-    class Program
+    public class Oink
     {
-        static void Main(string[] args)
+        public String Name { get; set; }
+
+        public Oink()
         {
+
         }
     }
 }
