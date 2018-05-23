@@ -27,5 +27,14 @@ namespace UnitTest
             // Assert
             Assert.Throws<ArgumentNullException>(() => new Oink(null), "Should throw an Exception");
         }
+
+        [Test]
+        public void Should_Fail_When_Null()
+        {
+            // Arrange
+            Oink oink = new Oink(null);
+            // Act
+            // Assert
+        }
     }
 }
