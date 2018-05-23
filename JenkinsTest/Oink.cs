@@ -14,5 +14,11 @@ namespace JenkinsTest
         {
 
         }
+        public Oink(String name)
+        {
+            if (null == name)
+                throw new ArgumentNullException();
+            Name = name;
+        }
     }
 }
