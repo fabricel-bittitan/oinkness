@@ -1,9 +1,9 @@
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent { docker { image 'ruby' } }
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'ruby --version'
             }
         }
     }
